@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+/* contenedor */
+.container{
+    margin: 10px 10%;
+    border: black 1px solid;
+}
+/* navegacion */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 40px;
+    margin: 10px 0;
+    border-bottom: solid 1px rgb(110, 107, 107);
+}
+/* nav h1{
+} */
+nav ul {
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px;
+    padding-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* contenido */
+/* quien soy */
+.presentacion1{
+    display: flex;
+    border-bottom: 1px solid black ;
+    text-align: center;
+    text-transform: capitalize;
+}
+.presentacion1 img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.presentacion1 .presentacion1_1{
+    margin: auto;
+    width: 210px;
+    margin:90px 50px 90px 150px;
+    border-bottom: black 1px solid;
+}
+.presentacion2{
+    width: 450px;
+    margin: 10px auto;
+    border: black 1px solid;
+}
+.presentacion2 h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 0;
+    text-transform: capitalize;
+}
+.presentacion2 p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 5px 15px;
+}
+.presentacion2 ul{
+    list-style: none;
+}
+.presentacion2 ul li{
+    text-align: center;
+    margin: 15px 0;
+    padding: 0 0 15px 0;
+    
+}
+.presentacion2 ul li a{
+    text-decoration: none;
+    border: black 1px solid;
+    padding: 10px 20px;
+}
+.presentacion2 ul li a:hover{
+    color: black;
+    background-color: green;
+    border: green 1px solid;
+}
+/* competencias */
+.presentacion3{
+    border: black 1px solid;
+    margin: 15px auto;    
+    width: 700px;
+
+/* }
+.contener .ordenar{
+    /* border: black 1px solid; */
+} */
+.ordenar{
+    display: flex;
+    margin: 10px 50px;
+    align-content: flex-start;
+}
+.ordenar .div1{
+    position: static;
+    width: 120px;
+    text-align: right;
+    border: black 1px solid;
+}
+.ordenar .linea,.linea2,.linea3,.linea4{
+    margin: 12px 10px;
+    width: 500px;
+    height: 5px;
+    padding: 5px 0;
+    border: 1px solid black;
+}
+.ordenar .linea{
+    width: 350px;
+    background-color: green;
+}
+.ordenar .linea2{
+    width: 400px;
+    background-color: green;
+}
+.ordenar .linea3{
+    width: 250px;
+    background-color: green;
+}
+.ordenar .linea4{
+    width: 150px;
+    background-color: green;
+}
+.ordenar .porcentaje {
+    border: green 1px solid;
+    
+}
