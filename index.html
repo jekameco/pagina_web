@@ -1,19 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primera Pagina Web</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
+    <div class="container">
+        <!-- navegacion -->
         <nav>
-            <a href="#">home</a>
-            <a href="#">about us</a>
-            <a href="#">contact us</a>
+            <h1>Jenny Mesa</h1>
+            <ul>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#" class="competencias">competencias</a></li>
+                <li><a href="#">portafolio</a></li>
+                <li><a href="#">contacto</a></li>
+            </ul>
         </nav>
-    </header>
-    <footer></footer>
+        <!-- contenido -->
+        <section class="presentacion">
+            <div class="presentacion1">
+                <article class="presentacion1_1">
+                    <h2>soy Jenny Mesa</h>
+                    <h5>desarrolladora web</h5>
+                </article>
+                <img src="logo.png" alt="foto mia">
+            </div>
+            <article class="presentacion2">
+                <h1>¿quien soy?</h1>
+                <p>soy una persona muy comprometida con el trabajo, cumplo mis metas cueste lo que cueste, me
+                    encanta trabajar en equipo y cada dia aprender algo nuevo, tambien me gusta mucho aplicar mis
+                    conocimientos en diferentes actividades que ayuden a fortaleer a estos.
+                </p>
+                <ul>
+                    <li><a href="#"> descargar curriculum</a></li>
+                </ul>
+            </article>
+            <article class="presentacion3">
+                <h1>competencias</h1>
+                <h3>mis conocimientos de software</h3>
+                <div class="contener">
+                    <div class="ordenar">
+                        <div class="div1">
+                            <h2>JAVA</h2>
+                        </div>
+                        <div class="linea"></div>
+                        <div class="porcentaje">
+                            <h2>70%</h2>
+                        </div>
+                    </div>
+                    <div class="ordenar">
+                        <div class="div1">
+                            <h2>HTML</h2>
+                        </div>
+                        <div class="linea2"></div>
+                        <div class="porcentaje">
+                            <h2>80%</h2>
+                        </div>
+                    </div>
+                    <div class="ordenar">
+                        <div class="div1">
+                            <h2>CSS</h2>
+                        </div>
+                        <div class="linea3"></div>
+                        <div class="porcentaje">
+                            <h2>50%</h2>
+                        </div>
+                    </div>
+                    <div class="ordenar">
+                        <div class="div1">
+                            <h2>Javascript</h2>
+                        </div>
+                        <div class="linea4"></div>
+                        <div class="porcentaje">
+                            <h2>30%</h2>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <footer>
+            <p>derechos de autor Jenny Mesa</p>
+        </footer>
+    </div>
 </body>
+
 </html>
