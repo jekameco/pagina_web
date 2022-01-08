@@ -1,0 +1,38 @@
+:root{
+    --primary:#FF6464;
+    --secondary:#00A8CC;
+    --dark:#21243D;
+    --light:#8695A4;
+    --sm:16px;
+    --md:20px;
+    --lg:24px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+}
+
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 50px;
+}
+
+.navegacion ul{
+    display: flex;
+    list-style: none;
+    /* margin-right: 50px; */
+}
+.navegacion ul li{
+    margin-left: 31px;
+}
+.navegacion ul li a{
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: bold;
+}
