@@ -5,88 +5,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;500;700&family=Merriweather:wght@300;400;700&family=Quicksand:wght@300;500;700&family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <title>Primera Pagina Web</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <!-- navegacion -->
-        <nav>
-            <h1>Jenny Mesa</h1>
+    <section class="principal" id="principal">
+        <nav class="navegacion">
             <ul>
-                <li><a href="#">inicio</a></li>
-                <li><a href="#" class="competencias">competencias</a></li>
-                <li><a href="#">portafolio</a></li>
-                <li><a href="#">contacto</a></li>
+                <li>
+                    <a href="#">Trabajos</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
             </ul>
         </nav>
-        <!-- contenido -->
-        <section class="presentacion">
-            <div class="presentacion1">
-                <article class="presentacion1_1">
-                    <h2>soy Jenny Mesa</h>
-                    <h5>desarrolladora web</h5>
-                </article>
-                <img src="logo.png" alt="foto mia">
+        <div class="contenido" id="contenido">
+            <div class="descripcion" id="descripcion">
+                <h1>Hola, Soy Jenny, Desarrolladora Fronted</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum excepturi, recusandae fugit ullam aliquam deserunt nostrum hic, accusamus ea voluptatem odit sequi placeat nisi iusto, aliquid dolorem nam nobis deleniti exercitationem fugiat.</p>
+                <form method="get" action="../hv.Jenny Mesa.pdf" class="boton" id="boton">
+                   <a href="../hv.Jenny Mesa.pdf" target="_blank">Ver Hoja de Vida</a>
+                 </form>
             </div>
-            <article class="presentacion2">
-                <h1>¿quien soy?</h1>
-                <p>soy una persona muy comprometida con el trabajo, cumplo mis metas cueste lo que cueste, me
-                    encanta trabajar en equipo y cada dia aprender algo nuevo, tambien me gusta mucho aplicar mis
-                    conocimientos en diferentes actividades que ayuden a fortaleer a estos.
-                </p>
-                <ul>
-                    <li><a href="#"> descargar curriculum</a></li>
-                </ul>
-            </article>
-            <article class="presentacion3">
-                <h1>competencias</h1>
-                <h3>mis conocimientos de software</h3>
-                <div class="contener">
-                    <div class="ordenar">
-                        <div class="div1">
-                            <h2>JAVA</h2>
-                        </div>
-                        <div class="linea"></div>
-                        <div class="porcentaje">
-                            <h2>70%</h2>
-                        </div>
-                    </div>
-                    <div class="ordenar">
-                        <div class="div1">
-                            <h2>HTML</h2>
-                        </div>
-                        <div class="linea2"></div>
-                        <div class="porcentaje">
-                            <h2>80%</h2>
-                        </div>
-                    </div>
-                    <div class="ordenar">
-                        <div class="div1">
-                            <h2>CSS</h2>
-                        </div>
-                        <div class="linea3"></div>
-                        <div class="porcentaje">
-                            <h2>50%</h2>
-                        </div>
-                    </div>
-                    <div class="ordenar">
-                        <div class="div1">
-                            <h2>Javascript</h2>
-                        </div>
-                        <div class="linea4"></div>
-                        <div class="porcentaje">
-                            <h2>30%</h2>
-                        </div>
-                    </div>
+            <div>
+                <img src="../IMG_20190403_113032.jpg" alt="imagen de jenny">
+            </div>  
+        </div>
+
+        <div class="trabajos" id="trabajos">
+            <h2>Mis trabajos</h2>
+    
+            <div class="trabajo" id="trabajo">
+                <img src="../img/formulario.JPG" alt="Formulario">
+                <div>
+                    <p>formulario</p>
+                    <p>2022</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde exercitationem nostrum tempora sint, ab, eaque ut ullam, repellendus ipsa cumque eveniet nesciunt amet provident doloremque asperiores iure repellat sequi voluptas atque dolorem?</p>
                 </div>
-            </article>
-        </section>
-        <footer>
-            <p>derechos de autor Jenny Mesa</p>
+            </div>
+    
+            <div class="trabajo" id="trabajo">
+                <img src="../img/Tributo.JPG" alt="Formulario">
+                <div>
+                    <p>Tributo</p>
+                    <p>2021</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde exercitationem nostrum tempora sint, ab, eaque ut ullam, repellendus ipsa cumque eveniet nesciunt amet provident doloremque asperiores iure repellat sequi voluptas atque dolorem?</p>
+                </div>
+            </div>
+    
+            <div class="trabajo" id="trabajo">
+                <img src="" alt="Formulario">
+                <div>
+                    <p>EasyBudget</p>
+                    <p>2020</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde exercitationem nostrum tempora sint, ab, eaque ut ullam, repellendus ipsa cumque eveniet nesciunt amet provident doloremque asperiores iure repellat sequi voluptas atque dolorem?</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer" id="footer">
+            <div class="social" id="social">
+                <a href="">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-codepen"></i>
+                </a>
+                <a href="">
+                    <i class="far fa-envelope"></i>
+                </a>
+            </div>
+            <p>Copyright &copy; 2022 Jenny Mesa</p>
         </footer>
-    </div>
+    </section>
+    
+    
 </body>
 
 </html>
