@@ -107,6 +107,9 @@ body{
     margin-bottom: 100px;
 }
 
+.trabajos{
+    padding: 0 130px;
+}
 .trabajos h2{
     color: var(--dark);
     font-size: var(--subtitulo2);
