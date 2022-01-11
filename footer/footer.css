@@ -37,7 +37,6 @@
     margin-right: 30px;
     color: var(--dark);
     font-size: var(--titulo2);
-
 }
 .social a:last-child{
     margin: 0;
@@ -45,4 +44,10 @@
 
 .footer p{
     color: var(--dark);
+}
+
+@media (max-width: 650px) {
+    .social a{
+        font-size: var(--subtitulo2);
+    }
 }
